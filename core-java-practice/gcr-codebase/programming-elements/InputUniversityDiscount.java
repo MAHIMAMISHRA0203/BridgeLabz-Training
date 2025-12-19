@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class input_university_discount{
+public class InputUniversityDiscount{
 	public static void main(String args[]) {
 		Scanner sc=new Scanner(System.in);
 		int fees=sc.nextInt();

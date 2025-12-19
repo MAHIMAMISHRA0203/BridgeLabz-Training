@@ -1,5 +1,5 @@
 import java.util.Scanner ;
-public class distance{
+public class Distance{
 	public static void main(String args[]) {
 		Scanner sc=new Scanner(System.in);
 		int distanceinfeet =sc.nextInt();

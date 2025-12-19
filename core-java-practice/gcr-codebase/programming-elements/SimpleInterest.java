@@ -1,4 +1,4 @@
-public class simple_interest {
+public class SimpleInterest {
     public static void main(String[] args) {
         double principal = 1000;
         double rate = 5;
