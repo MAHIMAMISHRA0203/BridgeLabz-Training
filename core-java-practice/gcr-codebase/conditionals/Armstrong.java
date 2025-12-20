@@ -4,9 +4,9 @@ public class Armstrong {
         int number = sc.nextInt();
         int sum = 0;
         while (number > 0) {
-            int temp = number % 10;
+            int temporaryVariable = number % 10;
             number /= 10;
-            sum += temp * temp;
+            sum += temporaryVariable * temporaryVariable;
 
         }
         if (sum == number)
