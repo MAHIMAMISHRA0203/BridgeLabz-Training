@@ -5,14 +5,14 @@ public class BMI {
         Scanner sc = new Scanner(System.in);
         double weight = sc.nextDouble();
         double height = sc.nextDouble();
-        double bmi = weight / (height * height);
-        if (bmi <= 18.4) {
+        double BodyMassIndex = weight / (height * height);
+        if (BodyMassIndex <= 18.4) {
             System.out.println("Underweight");
-        } else if (bmi <= 18.4) {
+        } else if (BodyMassIndex <= 18.4) {
             System.out.println("Underweight");
-        } else if (bmi >= 18.5 && bmi < 24.9) {
+        } else if (BodyMassIndex >= 18.5 && BodyMassIndex < 24.9) {
             System.out.println("Underweight");
-        } else if (bmi >= 25.0 && bmi <= 39.9) {
+        } else if (BodyMassIndex >= 25.0 && BodyMassIndex <= 39.9) {
             System.out.println("Underweight");
         } else
             System.out.println("Obese");
