@@ -1,4 +1,3 @@
-public class ArraySum {
 
 import java.util.Scanner;
 
