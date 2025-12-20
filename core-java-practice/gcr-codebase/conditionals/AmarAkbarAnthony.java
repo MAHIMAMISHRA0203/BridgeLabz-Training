@@ -1,23 +1,23 @@
 public class AmarAkbarAnthony {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int AkbarAge = sc.nextInt();
-        int AmarAge = sc.nextInt();
-        int AnthonyAge = sc.nextInt();
-        int AkbarHeight = sc.nextInt();
-        int AmarHeight = sc.nextInt();
-        int AnthonyHeight = sc.nextInt();
-        if (AkbarAge < AmarAge && AmarAge > AnthonyAge)
+        int akbarAge = sc.nextInt();
+        int amarAge = sc.nextInt();
+        int anthonyAge = sc.nextInt();
+        int akbarHeight = sc.nextInt();
+        int amarHeight = sc.nextInt();
+        int anthonyHeight = sc.nextInt();
+        if (akbarAge < amarAge && amarAge > anthonyAge)
             System.out.println("Amar is the oldest ");
-        else if (AkbarAge > AmarAge && AkbarAge > AnthonyAge)
+        else if (akbarAge > amarAge && akbarAge > anthonyAge)
             System.out.println("Akbar is the oldest ");
-        else if (AnthonyAge > AmarAge && AkbarAge < AnthonyAge)
+        else if (anthonyAge > amarAge && akbarAge < anthonyAge)
             System.out.println("Anthony is the oldest ");
-        if (AkbarHeight < AmarHeight && AmarHeight > AnthonyHeight)
+        if (akbarHeight < amarHeight && amarHeight > anthonyHeight)
             System.out.println("Amar is the tallest ");
-        else if (AkbarHeight > AmarHeight && AkbarHeight > AnthonyHeight)
+        else if (akbarHeight > amarHeight && akbarHeight > anthonyHeight)
             System.out.println("Akbar is the tallest ");
-        else if (AnthonyHeight > AmarHeight && AkbarHeight < AnthonyHeight)
+        else if (anthonyHeight > amarHeight && akbarHeight < anthonyHeight)
             System.out.println("Anthony is the tallest ");
     }
 
