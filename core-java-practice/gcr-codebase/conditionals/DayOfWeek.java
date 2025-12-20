@@ -1,8 +1,12 @@
 public class DayOfWeek {
     public static void main(String[] args) {
-
+        System.out.println("Enter month:");
         int m = Integer.parseInt(args[0]);
+        System.out.println("Enter day:");
+
         int d = Integer.parseInt(args[1]);
+        System.out.println("Enter year:");
+
         int y = Integer.parseInt(args[2]);
 
         int y0 = y - (14 - m) / 12;
