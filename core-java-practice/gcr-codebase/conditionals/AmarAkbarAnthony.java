@@ -8,17 +8,17 @@ public class AmarAkbarAnthony {
         int amarHeight = sc.nextInt();
         int anthonyHeight = sc.nextInt();
         if (akbarAge < amarAge && amarAge > anthonyAge)
-            System.out.println("Amar is the oldest ");
+            System.out.println("Amar is the oldest among three ");
         else if (akbarAge > amarAge && akbarAge > anthonyAge)
-            System.out.println("Akbar is the oldest ");
+            System.out.println("Akbar is the oldest among three");
         else if (anthonyAge > amarAge && akbarAge < anthonyAge)
-            System.out.println("Anthony is the oldest ");
+            System.out.println("Anthony is the oldest  among three");
         if (akbarHeight < amarHeight && amarHeight > anthonyHeight)
-            System.out.println("Amar is the tallest ");
+            System.out.println("Amar is the tallest  among three");
         else if (akbarHeight > amarHeight && akbarHeight > anthonyHeight)
-            System.out.println("Akbar is the tallest ");
+            System.out.println("Akbar is the tallest among three ");
         else if (anthonyHeight > amarHeight && akbarHeight < anthonyHeight)
-            System.out.println("Anthony is the tallest ");
+            System.out.println("Anthony is the tallest  among three");
     }
 
 }
