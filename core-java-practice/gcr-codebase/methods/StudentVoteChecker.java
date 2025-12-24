@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StudentVoteConvertor {
+public class StudentVoteChecker {
 
     static boolean canStudentVote(int age) {
         if (age < 0)
