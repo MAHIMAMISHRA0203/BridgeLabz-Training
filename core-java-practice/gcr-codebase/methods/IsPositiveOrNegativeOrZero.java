@@ -1,8 +1,11 @@
 public class IsPositiveOrNegativeOrZero {
-    public static Strinng positiveOrNegativeOrZero(int n){
-        if(n==0)
+    public static Strinng positiveOrNegativeOrZero(int n) {
+        if (n == 0)
             return "Zero";
-        if()
+        if (n > 0)
+            return "Positive";
+        else
+            return "Negative";
     }
 
     public static void main(String[] args) {
