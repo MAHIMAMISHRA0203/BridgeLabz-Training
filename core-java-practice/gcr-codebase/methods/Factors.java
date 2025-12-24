@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Factors {
     public static int[] factor(int number) {
         ArrayList<Integer> arr = new ArrayList<>();
