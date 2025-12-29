@@ -1,27 +1,58 @@
-## Daily Progress
+## 📅 BridgeLabz Daily Progress
 
-### ✅ Day 1
+### 16 DEC
 
 - Solved **5 LeetCode questions**
 - Focused on:
-  - Basic problem understanding
-  - Logic building
-  - Java syntax practice
+  - Understanding basic problem statements
+  - Building logical thinking
+  - Practicing Java syntax
 
 ---
 
-### ✅ Day 2
+### 17 DEC
 
-- Solved **Level 1 – 5 questions**
+- Solved **5 Level 1 questions**
 - Improved:
-  - Condition handling
-  - Loops and logic optimization
+  - Conditional statements
+  - Loop usage
+  - Basic logic optimization
 
 ---
 
-### ✅ Day 3
+### 18 DEC
 
-- Solved **Level 1 and level 2 **
+- Completed **all Level 1 questions**
+- Solved **Level 2 questions**
 - Improved:
-  - Condition handling
-  - Loops and logic optimization
+  - Problem-solving efficiency
+  - Logical optimization
+  - Confidence in handling different problem types
+
+---
+
+### 19-20 DEC
+
+✅ Level 1 – Basics
+
+Simple condition checks
+
+Basic loops
+
+Understanding boolean values and expressions
+
+✅ Level 2 – Intermediate
+
+Multiple conditions using logical operators
+
+Nested if-else statements
+
+Loop control using break and continue
+
+✅ Level 3 – Advanced
+
+Complex decision-making logic
+
+Menu-driven programs using switch
+
+Combination of loops and conditionals

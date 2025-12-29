@@ -11,11 +11,12 @@ public class MayaBMI {
         } else if (bmi <= 18.4) {
             System.out.println(" YOu Are ");
         } else if (bmi >= 18.5 && bmi < 24.9) {
-            System.out.println(" YOu Are Underweight");
-        } else if (bmi >= 25.0 && bmi <= 39.9) {
             System.out.println(" YOu Are Normal");
+        } else if (bmi >= 25.0 && bmi <= 39.9) {
+            System.out.println(" YOu Are Overweight");
         } else
             System.out.println(" YOu Are Obese");
+
     }
 
 }

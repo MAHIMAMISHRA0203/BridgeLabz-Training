@@ -2,7 +2,7 @@ import java.util.Scanner ;
 public class Handshake{
 	public static void main(String args[]) {
 		Scanner sc=new Scanner(System.in);
-		int noofstudents=sc.nextInt();
-		System.out.printf("The number of hanshake are "+(noofstudents*(noofstudents-1))/2);
+		int noOfStudents=sc.nextInt();
+		System.out.printf("The number of hanshake are "+(noOfStudents*(noOfStudents-1))/2);
 	}
 }
