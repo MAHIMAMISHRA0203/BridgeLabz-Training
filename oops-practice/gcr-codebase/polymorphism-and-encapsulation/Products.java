@@ -58,7 +58,7 @@ class Clothing extends Product {
     }
     int calculateDiscount(){
         System.out.print("The discount   is:");
-        return price-(discount*price/100);
+        return price-(discount*price/100); 
     }
 }
 interface Taxable{
