@@ -42,6 +42,7 @@ class TaskScheduler {
     }
 
     public static void main(String[] args) {
+        System.out.pritnln("Welcome ");
         addTask(1,"Coding",1,"10-06");
         addTask(2,"Testing",2,"11-06");
         addTask(3,"Deploy",3,"12-06");
