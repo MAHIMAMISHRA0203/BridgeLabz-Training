@@ -1,4 +1,3 @@
-package science;
 
 import java.util.*;
 
