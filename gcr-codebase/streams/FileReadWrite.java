@@ -8,8 +8,8 @@ public class FileReadWrite {
 
     public static void main(String[] args) {
 
-        String sourceFile = "source.txt";
-        String destinationFile = "destination.txt";
+        String sourceFile = "From.txt";
+        String destinationFile = "To.txt";
 
         FileInputStream fis = null;
         FileOutputStream fos = null;
