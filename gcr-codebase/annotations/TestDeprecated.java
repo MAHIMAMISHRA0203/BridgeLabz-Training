@@ -1,9 +1,5 @@
 package annotations;
 
-public class  {
-
-}
-
 class LegacyAPI {
 
     @Deprecated
