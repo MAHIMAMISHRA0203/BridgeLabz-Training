@@ -23,16 +23,18 @@ public class ValidateCol {
             while ((line = br.readLine()) != null) {
                 String data[] = line.split(",");
                 String email = data[3];
-                boolean matcher = pattern.matcher(email);
-                if (!match) {
+                Matcher matcher = pattern.matcher(email);
+                if (!matcher.matches()) {
                     System.out.println("Email not matches");
+                    br.close();
                     return;
 
                 }
 
             }
 
-            System.out.println("");
+            System.out.println("All email are validates");
+            br.close();
         } catch (Exception e) {
             System.out.println(e);
         }
