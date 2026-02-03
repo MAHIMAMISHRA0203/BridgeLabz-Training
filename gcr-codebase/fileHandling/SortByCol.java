@@ -5,34 +5,38 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 
 public class SortByCol {
     public static void main(String[] args) {
         try {
+            File file = new File("data.csv");
+            List<String[]> rows = new ArrayList<>();
 
-            File originalFile = new File("data.txt");
-            File tempFile = new File("temp.txt");
-
-            BufferedReader br = new BufferedReader(new FileReader(originalFile));
-            BufferedWriter bw = new BufferedWriter(new FileWriter(tempFile));
-
+            BufferedReader br = new BufferedReader(new FileReader(file));
             String line;
 
+            // Read file
             while ((line = br.readLine()) != null) {
-                if (line.contains("Java")) {
-                    line = line.replace("Java", "Python");
-                }
-                bw.write(line);
+                String[] columns = line.split(",");
+                rows.add(columns);
+            }
+            br.close();
+
+            // Sort by column 0 (ID)
+            rows.sort(Comparator.comparingInt(a -> Integer.parseInt(a[0])));
+
+            // Write back to file
+            BufferedWriter bw = new BufferedWriter(new FileWriter(file));
+            for (String[] row : rows) {
+                bw.write(String.join(",", row));
                 bw.newLine();
             }
-
-            br.close();
             bw.close();
 
-            originalFile.delete();
-            tempFile.renameTo(originalFile);
-
-            System.out.println("Value updated successfully");
+            System.out.println("File sorted by ID");
         } catch (Exception e) {
             System.out.println(e);
         }
