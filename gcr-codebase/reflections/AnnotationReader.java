@@ -13,7 +13,6 @@ class Book {
 }
 
 public class AnnotationReader {
-
     public static void main(String[] args) {
         Class<Book> cls = Book.class;
 
