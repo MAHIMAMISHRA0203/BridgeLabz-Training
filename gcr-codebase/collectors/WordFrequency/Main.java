@@ -1,4 +1,4 @@
-package collectors;
+package collectors.WordFrequency;
 
 import java.util.*;
 import java.util.stream.Collectors;
